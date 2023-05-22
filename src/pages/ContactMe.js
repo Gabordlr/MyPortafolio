@@ -8,16 +8,30 @@ import Logo from "../components/logos";
 export default function ContactMe() {
   const [isMessageSent, setMessageSent] = useState(false);
 
-  const handleSubmit = () => {
+  const handleSubmit = async (event) => {
+    event.preventDefault(); // Prevent form submission
+
+    // Get form data
+    const formData = new FormData(event.target);
     setMessageSent(true);
+    try {
+      // Send form data to the submission endpoint using fetch or AJAX library
+      await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+
+      // Set message sent state to true
+    } catch (error) {
+      console.error("Form submission error:", error);
+    }
   };
 
   if (isMessageSent) {
     setTimeout(() => {
-        setMessageSent(false);
+      setMessageSent(false);
     }, 5000);
-    }
-
+  }
 
   return (
     <div className="bg-neutral-300 h-screen">
