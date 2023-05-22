@@ -8,11 +8,7 @@ import Logo from "../components/logos";
 export default function ContactMe() {
   const [isMessageSent, setMessageSent] = useState(false);
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Simulating a successful form submission
-    // You can replace this with your actual form submission logic
-    // and set the value of isMessageSent accordingly
+  const handleSubmit = () => {
     setMessageSent(true);
   };
 
@@ -78,7 +74,7 @@ export default function ContactMe() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+            <input type="hidden" name="redirect" value="https://gabrielrodriguez.vercel.app/" />
             <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
