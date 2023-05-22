@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import LandingPage from './pages/LandingPage';
+import NamePage from './components/NamePage';
+import { motion } from "framer-motion";
+import SkillPage from './components/SkillsPage';
+import SoftSkills from './pages/SoftSkill';
+import TimeLine from './pages/TimeLine';
+import LangInter from './pages/Language&Interest';
+import ContactMe from './pages/ContactMe';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='overflow-hidden'>
+    <motion.div
+          initial={{
+            opacity: 0,
+            // drop in from the top
+            y: -100,
+          }}
+          animate={{
+            opacity: 1,
+            y: 0,
+          }}
+          transition={{ duration: 1 }}
+          
+        ><LandingPage /></motion.div>
+    
+    <NamePage />
+    <SkillPage />
+    <SoftSkills />
+    <TimeLine />
+    <LangInter />
+    <ContactMe />
     </div>
   );
 }
