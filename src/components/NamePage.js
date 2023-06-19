@@ -36,7 +36,7 @@ export default function NamePage() {
             <motion.div className="flex flex-col h-screen w-1/2 bg-neutral-800 justify-center items-center"
             initial={{x: '200vw'}}
             animate={slideRight}>
-                <img src="https://avatars.githubusercontent.com/u/78704009?v=4" alt="Gabriel Rodriguez" className="rounded-full h-64 w-64 mb-10" />
+                <img src="https://media.licdn.com/dms/image/D4D03AQHyWSdPY_DvSw/profile-displayphoto-shrink_800_800/0/1673884992727?e=1692835200&v=beta&t=sh-JzShHTNgwkNmaPDTXTrrW91c5D2uq0BFpbaOMF-Y" alt="Gabriel Rodriguez" className="shadow-xl shadow-black rounded-full h-72 w-72 mb-10" />
                 <p className="text-white font-light w-2/3 text-center">
                     bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
                     bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla

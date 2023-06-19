@@ -5,7 +5,7 @@ import "../index.css"
 
 export default function Modulos(data) {
     return (
-        <div class="flex items-center justify-center m-5">
+        <div class="flex items-center justify-center m-5 shadow-lg shadow-black">
         <card class="relative h-[20rem] sm:h-72 w-[25rem] rounded-lg">
           <img src={data.imagebg} className="h-full rounded-lg"/>
           <div class="absolute w-full h-full bottom-0 bg-gradient-to-r from-slate-800/30 to-slate-900 rounded-lg flex flex-col items-center justify-center text-center">
