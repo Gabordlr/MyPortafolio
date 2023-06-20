@@ -56,7 +56,7 @@ export const timeLineData = [
         date: '2021-2022',
         tags: ['education', 'work'],
         side: 'left',
-        shortDescription: 'In addition to my formal education and work experiences, I have undertaken independent projects in the fields of automobilism and simulators.',
+        shortDescription: 'In addition to my formal education and work experiences, I have undertaken independent projects in the fields of automobilism and simulators...',
         description: 'During the period of 2021-2022, I embarked on independent projects focused on automobilism and simulators, which allowed me to explore my passions beyond my formal education and work experiences. Through these projects, I delved into various aspects related to automotive engineering and virtual simulations, honing my skills and expanding my knowledge in these areas.',
         activities: [
             {
@@ -105,7 +105,7 @@ export const timeLineData = [
                 date: '2021 - current',
                 tags: ['education'],
                 side: 'left',
-                shortDescription: 'I am currently pursuing a Bachelor\'s degree in Software Engineering at Tecnologico de Monterrey. During my studies, I have gained hands-on experience by working on various projects that have helped me develop my skills and knowledge in the field.',
+                shortDescription: 'I am currently pursuing a Bachelor\'s degree in Software Engineering at Tecnologico de Monterrey. I have worked on various projects that have helped me develop new skills and knowledge in the field.',
                 description: 'In my Software Engineering program at Tecnologico de Monterrey, I have been exposed to a comprehensive curriculum that covers various aspects of software development. Through coursework and practical projects, I have learned about programming languages, software design principles, algorithms, and more. This program has provided me with a solid foundation to pursue a career in software engineering.',
                 activities: [
                     {
