@@ -65,7 +65,7 @@ export default function TimeLineCard({ id, onClose }) {
             key={title} 
             title={title} 
             activeTab={activeTab}
-            className= "text-sm md:text-base text-gray-50 mb-4">
+            className= "text-sm md:text-base text-gray-50">
               {activeTab === title && description}
             </TabPanel>
           ))}

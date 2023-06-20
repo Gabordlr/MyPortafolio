@@ -6,7 +6,7 @@ export const timeLineData = [
         date: '2018 - 2021',
         tags: ['education', 'work'],
         side : 'left',
-        shortDescription: 'I pursued my high school education at Tecnologico de Monterrey, where I had the privilege of completing both the IB Diploma and the Diploma Bilingue programs....',
+        shortDescription: 'I pursued my high school education at Tecnologico de Monterrey, where I had the privilege of completing both the IB Diploma and getting a .',
         description: 'I pursued my high school education at Tecnologico de Monterrey, where I had the privilege of completing both the IB Diploma and the Diploma Bilingue programs. These rigorous academic paths provided me with a well-rounded education encompassing various subjects and a strong emphasis on bilingualism. I also received the distinguished \"Recognition for Academic Excellence\" for my outstanding performance and dedication to my studies',
         activities:
                 [
@@ -51,83 +51,75 @@ export const timeLineData = [
     },
     {
         key: 3,
-        title: 'Racing CSF Team',
-        subtitle: '',
+        title: 'Independent Projects',
+        subtitle: 'Automobilism & Simulators',
         date: '2021-2022',
         tags: ['education', 'work'],
         side: 'left',
-        shortDescription: ' BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA Bla Bla...',
-        description: 'BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla',
-        activities:
-            [
-                {
-                    title: 'Tecnologico de Monterrey Youth Soccer Team',
-                    subtitle: '',
-                    date: '2018 - 2021',
-                    description: ''
-                },
-                {
-                    title: 'Racing CSF Team',
-                    subtitle: '',
-                    date: '2021-2022',
-                    description: ''
-                }
-            ]
+        shortDescription: 'In addition to my formal education and work experiences, I have undertaken independent projects in the fields of automobilism and simulators.',
+        description: 'During the period of 2021-2022, I embarked on independent projects focused on automobilism and simulators, which allowed me to explore my passions beyond my formal education and work experiences. Through these projects, I delved into various aspects related to automotive engineering and virtual simulations, honing my skills and expanding my knowledge in these areas.',
+        activities: [
+            {
+                title: 'Engineering Expo Presentation',
+                subtitle: '',
+                date: '2018 - 2021',
+                description: 'As part of the Engineering Expo at Tecnologico de Monterrey, I had the privilege of being invited to present my virtual simulation of magnetic fields developed in MatLab. This opportunity allowed me to showcase my expertise and passion for the field, and it was a rewarding experience to share my work with the university community.'
+            },
+            {
+                title: 'Electric Car Racing Team',
+                subtitle: '',
+                date: '2021-2022',
+                description: 'As a member of a dedicated racing team, I was responsible for the software and electric components of a fully electric car. This hands-on experience provided me with valuable insights into the intricate workings of electric vehicles and allowed me to contribute my technical skills to the team\'s success in producing and racing the car.'
+            }
+        ]
     },
     {
         key: 4,
-        title: 'Cahmer',
+        title: 'Working Experience',
         subtitle: '',
         date: '2023',
         tags: ['work'],
         side: 'right',
-        shortDescription: 'BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA Bla Bla...',
-        description: 'BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla',
-        activities:
-            [
-                {
-                    title: 'Tecnologico de Monterrey Youth Soccer Team',
-                    subtitle: '',
-                    date: '2018 - 2021',
-                    description: ''
-                },
-                {
-                    title: 'Racing CSF Team',
-                    subtitle: '',
-                    date: '2021-2022',
-                    description: ''
-                }
-            ]
-        },
+        shortDescription: 'Engaged with my developer\' team, Build 54, I have actively contributed to diverse web development projects, showcasing my proficiency in building full-stack applications...',
+        description:'With my team I\'ve been able to fing extraordinary opportunities to showcase my expertise in web development and harness state-of-the-art technologies to create sophisticated full-stack applications. As a member of Build 54, I have had the privilege of utilizing industry-leading tools and frameworks like React, AWS, S3, Amplify, and other cutting-edge technologies. Furthermore, our reputation for excellence has led to new collaborations with forward-thinking startups seeking technology solutions.',
+        activities: [
+            {
+                title: 'Frontend Development',
+                subtitle: '',
+                date: '2018 - 2021',
+                description: 'Collaborating as a Frontend Developer, I undertook the development of a captivating web page for a client. This undertaking involved the digital transformation of business processes, elegantly executed using technologies such as React, AWS, and other pertinent resources.'
+            },
+            {
+                title: 'Camher',
+                subtitle: '',
+                date: '2021-2022',
+                description: 'Within the remarkable Camher project, I had the privilege of being entrusted to architect a robust full-stack application that revolutionized the management of a prominent delivery company\'s fleet. As a highly skilled Fullstack Developer, my focal responsibility encompassed the intricate backend construction, showcasing my proficiency in frameworks such as React, AWS, S3, Amplify, and other cutting-edge technologies.'
+            }
+        ]
+    },
     {
-        key: 5,
-        title: 'Tecnologico de Monterrey',
-        subtitle: 'Software Engineering',
-        date: '2021 - current',
-        tags: ['education'],
-        side: 'left',
-        shortDescription: 'BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA Bla Bla...',
-        description: 'BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla',
-        activities:
-                [
+
+                key: 5,
+                title: 'Software Engineering',
+                subtitle: 'Tecnologico de Monterrey',
+                date: '2021 - current',
+                tags: ['education'],
+                side: 'left',
+                shortDescription: 'I am currently pursuing a Bachelor\'s degree in Software Engineering at Tecnologico de Monterrey. During my studies, I have gained hands-on experience by working on various projects that have helped me develop my skills and knowledge in the field.',
+                description: 'In my Software Engineering program at Tecnologico de Monterrey, I have been exposed to a comprehensive curriculum that covers various aspects of software development. Through coursework and practical projects, I have learned about programming languages, software design principles, algorithms, and more. This program has provided me with a solid foundation to pursue a career in software engineering.',
+                activities: [
                     {
-                        title: 'Tecnologico de Monterrey Youth Soccer Team',
+                        title: 'Academic Scholarship',
                         subtitle: '',
-                        date: '2018 - 2021',
-                        description: 'Hola mami'
+                        date: '2021',
+                        description: 'In 2021, I was awarded an academic scholarship for my outstanding performance at Tecnologico de Monterrey. This scholarship recognizes my dedication and commitment to academic excellence, as well as constant co curricular participation.'
                     },
                     {
-                        title: 'Racing CSF Team',
+                        title: 'Online Video Game',
                         subtitle: '',
                         date: '2021-2022',
-                        description: 'Como tu te llamas'
-                    },
-                    {
-                        title: 'Tecnologico de ',
-                        subtitle: '',
-                        date: '2018 - 2021',
-                        description: 'HELLOOOOOOOOOOO'
-                    },
+                        description: 'During the academic year 2021-2022, I actively participated in the development of an online video game as part of a team project. This experience allowed me to apply my software engineering skills in a collaborative setting and gain practical insights into game development. We built the game using Unity, a popular game engine, and C#, a programming language, while hosting an SQL database and a static webasite in Vercel. '
+                    }
                 ]
-    }
-]
+            }
+        ];
