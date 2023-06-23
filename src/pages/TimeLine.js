@@ -87,8 +87,8 @@ const handleTabClick = (key) => {
               Academic Journey & Co Curricular Experiences
             </p>
             <p className="text-sm md:text-base text-gray-50 mb-4">
-              Here's your guide to the tech fest 2021 process. Go through all the
-              steps to know the exact process of the fest.
+              Here's a brief timeline of my academic journey and co-curricular, as well as some 
+              of my most relevant experiences. Click on the cards to learn more about each experience.
             </p>
           </motion.div>
 
