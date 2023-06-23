@@ -6,7 +6,7 @@ export const timeLineData = [
         date: '2018 - 2021',
         tags: ['education', 'work'],
         side : 'left',
-        shortDescription: 'I pursued my high school education at Tecnologico de Monterrey, where I had the privilege of completing both the IB Diploma and getting a .',
+        shortDescription: 'I pursued my high school education at Tecnologico de Monterrey, where I had the privilege of completing both the IB Diploma and getting a recognition...',
         description: 'I pursued my high school education at Tecnologico de Monterrey, where I had the privilege of completing both the IB Diploma and the Diploma Bilingue programs. These rigorous academic paths provided me with a well-rounded education encompassing various subjects and a strong emphasis on bilingualism. I also received the distinguished \"Recognition for Academic Excellence\" for my outstanding performance and dedication to my studies',
         activities:
                 [

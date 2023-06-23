@@ -30,8 +30,8 @@ export default function DragComponent({ words }) {
           className={`shadow-xl shadow-black absolute flex w-52 h-52 rounded-full items-center opacity-50 justify-center hover:opacity-100 text-3xl font-extralight bg-neutral-800 ${colors[index % colors.length]}`}
           style={{
             cursor: isActive ? "grabbing" : "grab",
-            translateX: `${(index-2) * 75}%`,
-            translateY: `${(index-2) * 30}%`,
+            x: `${(index-2) * 75}%`,
+            y: `${(index-2) * 30}%`,
           }}
         >
           {word}
