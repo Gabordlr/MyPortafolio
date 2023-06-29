@@ -42,7 +42,7 @@ export const timeLineData = [
                         description: 'Through my participation in the Tecnologico de Monterrey Youth Soccer Team for over 3 years, I developed valuable soft skills such as consistency and teamwork. The experience taught me the importance of discipline, perseverance, and maintaining a consistent effort. As a team player, I learned to collaborate effectively, communicate with my teammates, and work towards common goals, which contributed to numerous successes we achieved together'
                     },
                     {
-                        title: 'GREECS ',
+                        title: 'GREECS',
                         subtitle: '',
                         date: '2018-2021',
                         description: 'As a Coordinator in GREECS, a student group focused on personal finance and entrepreneurship, I had the privilege of playing a vital role in organizing and facilitating events. Our primary responsibility was to invite esteemed business professionals and experts to share their knowledge and insights in the areas of personal finance and entrepreneurship. Working alongside a dedicated team, we successfully curated engaging and educational sessions that provided our fellow students with valuable knowledge from experienced professionals.'
@@ -60,13 +60,13 @@ export const timeLineData = [
         description: 'During the period of 2021-2022, I embarked on independent projects focused on automobilism and simulators, which allowed me to explore my passions beyond my formal education and work experiences. Through these projects, I delved into various aspects related to automotive engineering and virtual simulations, honing my skills and expanding my knowledge in these areas.',
         activities: [
             {
-                title: 'Engineering Expo Presentation',
+                title: 'Expo Engineering Invitation',
                 subtitle: '',
                 date: '2018 - 2021',
                 description: 'As part of the Engineering Expo at Tecnologico de Monterrey, I had the privilege of being invited to present my virtual simulation of magnetic fields developed in MatLab. This opportunity allowed me to showcase my expertise and passion for the field, and it was a rewarding experience to share my work with the university community.'
             },
             {
-                title: 'Electric Car Racing Team',
+                title: 'Racing CSF Team',
                 subtitle: '',
                 date: '2021-2022',
                 description: 'As a member of a dedicated racing team, I was responsible for the software and electric components of a fully electric car. This hands-on experience provided me with valuable insights into the intricate workings of electric vehicles and allowed me to contribute my technical skills to the team\'s success in producing and racing the car.'

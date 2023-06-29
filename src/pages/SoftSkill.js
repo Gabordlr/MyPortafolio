@@ -27,7 +27,7 @@ export default function SoftSkills() {
             <div className="w-full text-center flex justify-center">
             <button class="btn group flex items-center bg-transparent p-2 px-6 text-xl font-thin tracking-widest text-white">
                 <span class="relative pb-1 text-white after:transition-transform after:duration-500 after:ease-out after:absolute after:bottom-0 after:left-0 after:block after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-violet-500 after:content-[''] after:group-hover:origin-bottom-left after:group-hover:scale-x-100"
-                >Move them</span>
+                >Explore them</span>
             </button>
             </div>
             <div className="flex h-4/6 w-full items-center justify-center "> 

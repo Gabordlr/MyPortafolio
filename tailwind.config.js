@@ -25,6 +25,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      abc: ['Manrope', "sans-serif"],
+      smText: ['Anonymous Pro', "monospace"],
+    }
   },
   plugins: [MyClass],
 };

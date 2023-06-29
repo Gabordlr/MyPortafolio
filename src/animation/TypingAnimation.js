@@ -43,6 +43,6 @@ function TypeAnimation({ prompt, size, color}) {
     }
   }, [currentIndex]);
 
-  return <h1 className={`${color} font-light ${size}`}> {typedText}</h1>;
+  return <h1 className={`${color} font-abc font-thin ${size}`}> {typedText}</h1>;
 }
 export default TypeAnimation;
