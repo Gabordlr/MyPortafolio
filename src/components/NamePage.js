@@ -36,9 +36,9 @@ export default function NamePage() {
         <motion.div className="flex flex-col h-screen w-1/2 bg-neutral-800 justify-center items-center"
         initial={{x: '200vw'}}
         animate={slideRight}>
-            <img src="https://media.licdn.com/dms/image/D4D03AQHyWSdPY_DvSw/profile-displayphoto-shrink_800_800/0/1673884992727?e=1692835200&v=beta&t=sh-JzShHTNgwkNmaPDTXTrrW91c5D2uq0BFpbaOMF-Y" alt="Gabriel Rodriguez" className="shadow-xl shadow-black rounded-full h-80 w-80 mb-10" />
+            <img src="https://media.licdn.com/dms/image/D4D03AQHyWSdPY_DvSw/profile-displayphoto-shrink_800_800/0/1673884994791?e=1709769600&v=beta&t=bUl4kRolixTGCFWo-hadzFJ9TRchk7vo67XWOQbygeY" alt="Gabriel Rodriguez" className="shadow-xl shadow-black rounded-full h-80 w-80 mb-10" />
             <p className="text-white font-light w-2/3 text-center font-abc text-md">
-             a passionate software engineering student specializing in fullstack development. 
+            a passionate software engineering student specializing in fullstack development. 
             With a strong appetite for learning new technologies, I am dedicated to creating innovative 
             and seamless applications, driven by my commitment to continuous growth and development in 
             the field of software engineering
